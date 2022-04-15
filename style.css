@@ -1,0 +1,72 @@
+body {
+  margin: 0vw 7vw 0px 7vw;
+  font-family: monospace;
+  font-size: 2rem;
+  font-weight:bolder;
+  color: white;
+  text-align:center;
+  padding: 15px;
+
+  background-image: url("https://freedesignfile.com/upload/2013/06/floral_bckgr_01.jpg");
+  }
+
+#contentGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 50px;
+  row-gap:5vw;
+}
+
+h2{
+  font-family:inherit;
+  text-align: center;
+  color:black;
+  text-shadow: 2px 2px 50px red;
+}
+
+ul li{
+  display:inline-block;
+}
+
+ul li a{
+color:white;
+padding:10px 20px;
+text-decoration: none;
+font-family: sans-serif;
+font-stretch: semi-expanded;
+font-weight: bold;
+}
+
+ul li a:hover{
+  background-color:#D9D9D9;
+  text-decoration: underline;
+  text-shadow: 3px 3px 15px red;
+  border-radius: 15%;
+  border-style: solid;
+}
+.items {
+  text-align: center;
+  border: 5px, groove;
+  border-radius: 25px;
+  background-color: #D9D9D9;
+}
+.pContain{
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  color:brown;
+}
+
+p {
+  display: inline-block;
+  font-size: 85%;
+  width: 75%;
+}
+
+.contentImage {
+  width: 90%;
+  padding-top: 15px;
+}
